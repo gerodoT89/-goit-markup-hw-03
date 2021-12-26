@@ -10,13 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
     <body>
     <!--Заголовок-->
-    <header>
+    <header class="head">
+        <div class="container">
         <nav>
             <a class="webstudio" href="index.html"> <span class="web">Web</span>Studio</a>
             <ul class="header-name-list list">
@@ -29,15 +32,19 @@
             <li><a class="header-contacts" href="mailto:info@devstudio.com" title="info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="header-tell" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </header>
     <main>
+        <div class="container">
         <section class="section-background-color">
             <h1 class="section-effective-solutions">Эффективные решения для вашего бизнеса</h1>
             <button class="button-style" type="button"> Заказать услугу</button>
+        </div>
         </section>
 
         <!--Секция:Основной материал сайта-->
         <section>
+            <div class="container">
             <h2>Основной материал</h2>
             <ul class="list">
                 <li>
@@ -57,18 +64,22 @@
                     <p class="main-material-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--Секция:Чем мы занимаемся-->
         <section>
-            <h2 class="occupation-team-sections"> Чем мы занимаемся </h2>
-            <ul class="list">
+            <div class="container">
+                <h2 class="occupation-team-sections"> Чем мы занимаемся </h2>
+                <ul class="list">
                 <li><img src="images/img.jpg" alt="MacBook-work" width="370" height="294" /></li>
                 <li><img src="./images/box2.jpg" alt="Mobile-app" width="370" height="294" /></li>
                 <li><img src="./images/box3.jpg" alt="work-on-a-tablet" width="370" height="294" /></li>
-            </ul>
+                </ul>
+            </div>
         </section>
         <!--Секция:Наша команда-->
         <section class="background-color-team">
+            <div class="container">
             <h2 class="occupation-team-sections">Наша команда</h2>
             <ul class="list">
                 <li><img src="./images/IgorDemianenko.jpg" alt="Игорь Демьяненко" width="270" height="260" />
@@ -88,19 +99,24 @@
                     <p class="proffesin-section">UI Designer</p>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
     <footer>
-        <a class="studio-footer" href="index.html"> <span class="web">Web</span>Studio</a>
+        <div class="container">
+            <div class="footer-menu">
+            <a class="studio-footer" href="index.html"> <span class="web">Web</span>Studio</a>
         <address>
             <ul class="list">
                 <li><a class="footer-address-section" href="https://www.google.com/maps/d/viewer?msa=0&mid=10uSM3H-mIU3GznYo2szRIEphczw&ll=50.42732223110121%2C30.538093590064918&z=17"
                         target="blanc" rel="noopener noreferre">
                         г. Киев, пр-т Леси Украинки, 26</a></li>
                 <li><a class="footer-contact-section" href="mailto:info@example.com" title="info@example.com">info@example.com</a></li>
-                <li><a class="footer-contact-section" href="tel:+380991111111" title="+380991111111">+38 099 111 11 11</a></li>
+                <li><a class="footer-tell-section" href="tel:+380991111111" title="+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
+        </div>
+       </div>
     </footer>
 
 </body>
