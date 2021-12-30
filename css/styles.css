@@ -40,7 +40,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 .webstudio {
   font-family: Raleway, sans-serif;
@@ -71,7 +70,12 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--portfolio-main-color);
-  margin-right: 50px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-name-list .social-link + .social-link {
+  margin-left: 50px;
 }
 
 .social-link:hover,
@@ -90,8 +94,8 @@ img {
   text-decoration: none;
   display: flex;
   padding-left: 253px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  list-style: none;
+  outline: 2px solid tomato;
 }
 
 .studio-color {
@@ -191,10 +195,7 @@ img {
   text-align: center;
   color: var(--main-text-color);
 }
-.team-block-section {
-  display: inline-block;
-  margin-top: 50px;
-}
+
 /*-----------Секция футера-----------*/
 .studio-footer {
   font-family: Raleway;
