@@ -75,7 +75,10 @@ img {
   color: var(--portfolio-main-color);
   display: block;
 }
-
+.border-header {
+  border: 1px solid #ececec;
+  box-shadow: 0 4px 4px 0 #ececec;
+}
 .social-link:hover,
 .social-link:focus,
 .header-contacts:hover,
@@ -224,6 +227,7 @@ img {
 .background-color-team {
   background-color: var(--background-text-button-color);
 }
+
 .occupation-team-sections {
   font-weight: 700;
   font-size: 36px;
@@ -237,6 +241,10 @@ img {
 }
 .team-img {
   margin-right: 30px;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  box-shadow: 0 4px 4px 0 #ececec;
 }
 .team-block-section .team-img:last-child {
   margin-right: 0px;
@@ -273,6 +281,8 @@ img {
   height: 252px;
   display: inline-block;
   margin-left: 5px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .footer-section-li {
   padding-top: 9px;
@@ -313,13 +323,21 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 34px;
 }
-.portfolio-image:nth-last-child(3n) {
+.portfolio-image {
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
+  margin-bottom: 30px;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  box-shadow: 0 4px 4px 0 #ececec;
+}
+.portfolio-image:nth-child(3n) {
+  margin-right: 0px;
 }
 .portfolio-image:nth-last-child(-n + 3) {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .list-text-decor {
   text-decoration: none;
@@ -333,6 +351,8 @@ img {
 .button-list-item {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+  list-style: none;
 }
 
 .main-name-section {
@@ -346,6 +366,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   margin-right: 30px;
+  border-color: var(--background-text-button-color);
 }
 .button-list-item .main-name-section:not(:last-child) {
   margin-right: 30px;
@@ -366,4 +387,8 @@ img {
 }
 .foter-addres-list {
   padding-top: 20px;
+}
+.footer-border {
+  border-style: solid 1px #000000;
+  box-shadow: 0 4px 4px 0 #000000;
 }
