@@ -212,6 +212,7 @@ img {
   display: flex;
 }
 .img-material-section {
+  display: block;
   margin-right: 30px;
 }
 .img-occupation .img-material-section:last-child {
@@ -240,6 +241,7 @@ img {
   display: flex;
 }
 .team-img {
+  display: block;
   margin-right: 30px;
   border-left: 1px solid #ececec;
   border-right: 1px solid #ececec;
@@ -325,6 +327,7 @@ img {
   flex-wrap: wrap;
 }
 .portfolio-image {
+  display: block;
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
