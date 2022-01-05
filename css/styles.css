@@ -54,6 +54,7 @@ img {
   color: var(--webstudio-text-color);
   margin-top: 24px;
   margin-bottom: 25px;
+  display: flex;
 }
 .web {
   color: #2196f3;
@@ -66,7 +67,9 @@ img {
 }
 
 /*-----------------Header------------------*/
-
+.head-width {
+  width: 80px;
+}
 .social-link {
   font-weight: 500;
   line-height: 16px;
