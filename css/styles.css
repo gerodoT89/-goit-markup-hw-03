@@ -196,22 +196,24 @@ img {
   margin-right: 30px;
 }
 .list-about {
-  width: calc((100%-90px) / 4);
+  width: 270px;
 }
 .section-name-main-material {
-  font-family: inherit;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-name-text-color);
   margin-bottom: 10px;
+  text-transform: uppercase;
+  padding: 0px;
 }
 .main-material-text {
   line-height: 1.71;
+  font-style: Regular;
   color: var(--main-text-color);
-  margin-right: 30px;
-  height: 75px;
-  margin-left: auto;
+  padding: 0px;
+  margin: 0px;
 }
 .section-main-material {
   display: flex;
@@ -387,9 +389,14 @@ img {
   margin-bottom: 50px;
   list-style: none;
 }
-
+.button-setting {
+  display: list-item;
+  margin-right: 8px;
+  list-style: none;
+}
 .main-name-section {
   display: list-item;
+  font-style: Medium;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -397,12 +404,14 @@ img {
   color: var(--portfolio-main-color);
   text-decoration: none;
   cursor: pointer;
-  margin-right: 30px;
-  fill: solid #f5f4fa;
+  border: none;
+  padding: 6px 20px;
+  background: var(--background-text-button-color);
 }
-.button-list-item .main-name-section:not(:last-child) {
-  margin-right: 8px;
+.button-list-item .button-setting:last-child {
+  margin-right: 0px;
 }
+
 /*---------------псевдоклас контактов портфолио------------*/
 .main-name-section:hover,
 .main-name-section:focus {
@@ -414,6 +423,7 @@ img {
   color: #2196f3;
 }
 .footer-menu {
+  display: block;
   padding-top: 60px;
   padding-bottom: 60px;
 }
