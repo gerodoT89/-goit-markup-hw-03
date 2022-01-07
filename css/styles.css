@@ -147,17 +147,18 @@ img {
 .section-background-color {
   background-color: var(--footer-main-background-color);
 }
+
 .main-container {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
+
 .material-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.hero-content {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
+
 .section-effective-solutions {
   font-weight: 900;
   font-size: 44px;
@@ -288,6 +289,7 @@ img {
 /*-----------Секция футера-----------*/
 .footer-paddings {
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 .studio-footer {
   font-family: Raleway;
@@ -300,13 +302,10 @@ img {
   margin-bottom: 20px;
 }
 .footer-menu-logo {
-  padding-top: 60px;
   margin-bottom: 20px;
   display: block;
 }
-.footer-list-address {
-  padding-bottom: 60px;
-}
+
 .footer-menu {
   display: inline-block;
 }
@@ -314,7 +313,6 @@ img {
   margin-bottom: 9px;
 }
 .footer-li-addres-section {
-  margin-top: 9px;
   margin-bottom: 9px;
 }
 .footer-contact-section,
@@ -368,7 +366,11 @@ img {
 .portfolio-content-size {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
 }
 .list-text-decor {
   text-decoration: none;
@@ -387,20 +389,19 @@ img {
 }
 
 .main-name-section {
+  display: list-item;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  border-radius: 4px;
   color: var(--portfolio-main-color);
   text-decoration: none;
   cursor: pointer;
   margin-right: 30px;
-  border-color: var(--background-text-button-color);
   fill: solid #f5f4fa;
 }
 .button-list-item .main-name-section:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 /*---------------псевдоклас контактов портфолио------------*/
 .main-name-section:hover,
